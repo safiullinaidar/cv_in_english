@@ -73,7 +73,32 @@ content:
     layout: list
     content:
       - layout: top-middle
-        title: "Barbeque"
+        title: "Weather API"
+        additional_links:
+          - title:  weather_api
+            icon: fab fa-github
+            url: https://github.com/safiullinaidar/weather_api
+        quote: >
+          Weather statistics for particular city
+        description: |
+          Open API, no registration required.
+          Shows current temperature, hourly temperature for the last 24 hours,
+          maximum, minimum and average temperature in 24 hours, 
+          temperature closest to the passed timestamp, backend status.
+      - layout: top-middle
+        title: "Telegram Speech-To-Text Bot"
+        additional_links:
+          - title:  telegram_stt_bot
+            icon: fab fa-github
+            url: https://github.com/safiullinaidar/telegram_stt_bot
+        quote: >
+          Bot for extracting text from speech
+        description: |
+          An application for extracting text from speech.
+          Uses Yandex Speech Kit as an engine and Yandex cloud as a temporary storage 
+          for audio files.
+      - layout: top-middle
+        title: "Barbeque App"
         link: https://shashlykmashlyk.herokuapp.com
         link_text: Barbeque
         additional_links:
@@ -88,7 +113,7 @@ content:
           You can subscribe to an event (both an authorized user and an anonymous one),
           leave a comment, add photos.
       - layout: top-middle
-        title: "Askme"
+        title: "Askme App"
         link: https://powerful-hollows-33867.herokuapp.com
         link_text: Askme
         additional_links:
@@ -134,7 +159,7 @@ content:
       I apply security principles to <mark>Rails</mark> applications
       (<mark>CSRF</mark>-token, <mark>SQL</mark>-injection protection, spam protection, authorization protection), control background tasks with <mark>ActiveJob</mark>
 
-  - title: Work experince
+  - title: Work experience
     layout: list
     content:
       - layout: left
@@ -150,7 +175,7 @@ content:
           Evaluation of the effectiveness of the project implementation according to formalized criteria.
           Organization of testing, trial operation and final acceptance of systems.
       - layout: left
-        title: ООО "ТатАвтоматизация"
+        title: LLC "TatAvtomatizaciya"
         link: https://tatintec.ru
         sub_title: Deputy Chief Engineer - Head of Contract Execution Department, Chief Specialist, Lead Engineer, Engineer in company group "Tatintec" (Almetyevsk)
         caption: October 2009 - July 2021
