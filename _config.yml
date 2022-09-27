@@ -1,0 +1,217 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Aidar Safiullin
+title: Ruby on Rails developer
+email: aidarinXT@mail.ru
+phone: +7(986)925-42-25
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+# twitter_username: facespics
+# telegram_username: Aidar_Safiullin
+github_username:  safiullinaidar
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+instagram_username: aidar_r_safiullin
+linkedin_username: Aidar Safiullin
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: jekyll
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+additional_links:
+- title: Telegram
+  icon: fab fa-telegram
+  url: https://t.me/Aidar_Safiullin
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+about_title: About myself
+about_profile_image: images/avatar.jpeg
+about_content: | # this will include new lines to allow paragraphs
+  Hello, my name is Aidar, I am 35 years old, I've been involved in industrial automation for 12 years,
+  and in the summer of 2021, I've decided to start automating business processes at the level of information systems.
+  The deeper I dived, the more I wanted to develop web applications on an interesting stack.
+  My choice fell on <mark>Ruby</mark> a long time ago, and for about a year I've been studying the <mark>Ruby on Rails</mark> framework
+  
+  In June 2022, I completed an online <mark>Ryby on Rails</mark> course at the most advanced online school in this field in the Russian Federation - [Good Programmer] (https://goodprogrammer.ru/).
+  As part of the training, I developed projects, posted them on <mark>GitHub</mark>. Details of some projects are listed below.
+
+  <u>Objective:</u>
+  I am currently looking for a job as a <mark>Ryby on Rails</mark> developer with development opportunities.
+
+  <u>Languages</u>
+
+  Russian, Tatar - native
+  
+  English - Upper-intermediate (B2)
+  
+  Italian - Elementary (A1)
+
+content:
+  - title: Projects
+    layout: list
+    content:
+      - layout: top-middle
+        title: "Barbeque"
+        link: https://shashlykmashlyk.herokuapp.com
+        link_text: Barbeque
+        additional_links:
+          - title:  barbeque
+            icon: fab fa-github
+            url: https://github.com/safiullinaidar/barbeque
+        quote: >
+          App for creating events
+        description: |
+          An application for creating events (for example, going to barbecue with friends).
+          Events can be created by registered users.
+          You can subscribe to an event (both an authorized user and an anonymous one),
+          leave a comment, add photos.
+      - layout: top-middle
+        title: "Askme"
+        link: https://powerful-hollows-33867.herokuapp.com
+        link_text: Askme
+        additional_links:
+          - title:  askme
+            icon: fab fa-github
+            url: https://github.com/safiullinaidar/askme
+        quote: >
+          An application where you can ask questions and get answers to them
+        description: |
+          The functionality of the web application is similar to the well-known Ask.fm site.
+          To use the application, you must register in it.
+          You can then edit your profile, ask and reply
+          to questions from both registered and anonymous users.
+
+  - title: Skills
+    layout: text
+    content: |
+      <b>Basics</b>
+
+      I understand the principles of <mark>OOP</mark>, <mark>DRY</mark>, <mark>SOLID</mark>, use application design approaches, studied programming patterns,
+      I use different data formats (<mark>XML</mark>, <mark>JSON</mark>), I use relational databases (<mark>SQLite</mark>, <mark>PostgreSQL</mark>)
+
+      <b>Ruby</b>
+
+      I follow the code style, understand and use the basic syntax, cover the code with tests (<mark>RSpec</mark>),
+      using interactive console, using <mark>Rubygems</mark> libraries
+
+      <b>Tools</b>
+
+      I am a confident <mark>Linux Ubuntu</mark> user, using terminal, using <mark>Git</mark>, pushing projects to <mark>GitHub</mark> remote repositories.
+      I have deployed projects to <mark>Heroku</mark>, debugged code using <mark>Debugger</mark> gem, deployed to <mark>VPS</mark> using <mark>Capistrano</mark> gem
+
+      <b>Frontend</b>
+
+      I understand the essence of the protocol <mark>HTTP</mark>, mastered the basics of web design, layout. I write in <mark>HTML5</mark>; apply <mark>CSS3</mark> styles.
+      I use front-end frameworks <mark>Bootstrap 5</mark>, <mark>Skeleton</mark>. I use some modules written in <mark>JS</mark>.
+
+      <b>Rails</b>
+
+      I understand and apply the <mark>MVC</mark> pattern, study the project file structure, understand and apply the <mark>REST</mark> convention.
+      I understand and apply the main approaches in designing <mark>Rails</mark>-applications. I use popular gems
+      (<mark>I18n</mark>, <mark>RSpec</mark>, <mark>Devise</mark>, <mark>Carrierwave</mark>, <mark>Mailjet</mark>, etc.).
+      I apply security principles to <mark>Rails</mark> applications
+      (<mark>CSRF</mark>-token, <mark>SQL</mark>-injection protection, spam protection, authorization protection), control background tasks with <mark>ActiveJob</mark>
+
+  - title: Work experince
+    layout: list
+    content:
+      - layout: left
+        title: JSC "Setevaya companiya"
+        link: https://gridcom-rt.ru
+        sub_title: Chief Specialist - Project Manager
+        caption: July 2021 - present time
+        quote: >
+           
+        description: |
+          Project management for the implementation and development of information systems. Formation of technical specifications, scheduling,
+          analysis of the customer's business requirements, management of the project team and the resources of contractors.
+          Evaluation of the effectiveness of the project implementation according to formalized criteria.
+          Organization of testing, trial operation and final acceptance of systems.
+      - layout: left
+        title: ООО "ТатАвтоматизация"
+        link: https://tatintec.ru
+        sub_title: Deputy Chief Engineer - Head of Contract Execution Department, Chief Specialist, Lead Engineer, Engineer in company group "Tatintec" (Almetyevsk)
+        caption: October 2009 - July 2021
+        quote: >
+           
+        description: |
+          Management of the service activities of the company, formation and support of the catalog of services.
+          Organization of interaction with customers. Direct participation in strategic planning,
+          development and monitoring of the implementation of KPI of all managers.
+          Participation in project management, in the formation of the technical policy of the enterprise.
+
+  - title: Education
+    layout: list
+    content:
+      - layout: left
+        title: Almetyevsk State Oil Institute
+        caption: 2004 - 2009
+        sub_title: Automation of technological processes and productions
+        quote: >
+          Established in 1952, one of the key universities in the field of personnel training for the oil industry of the Russian Federation
+        description: |
+          While studying here, I received a fundamental technical education, learned the approaches and methods of teaching,
+          learned to work in a team. This provided a strong foundation for my career in automation and allowed me to
+          improve your knowledge in the future.
+      - layout: left
+        title: Kazan Federal University
+        caption: December 2017 - October 2018
+        sub_title: Professional retraining program for management personnel (Management)
+        quote: >
+          Established in 1804, one of the oldest universities in the state, within the walls of which many outstanding scientists, artists, politicians studied and worked
+        description: |
+          Here I've improved my managerial skills acquired during my career. Also I've significantly improved my soft skills
+      - layout: left
+        title: Good Programmer
+        caption: February 2022 - June 2022
+        sub_title: Online Ruby on Rails course
+        quote: > 
+          This is the best thing that can happen to those who are looking for web development courses
+        description: |
+          Here I acquired the skills of a web developer, mastered the methodology of working with documentation and searching for information to solve specific problems on the project,
+          ability to work in a team under tight deadlines and under high pressure. More information about all the skills acquired here is indicated in the special section "Skills"
+          
+  - title: A little more about myself
+    layout: text
+    content: |
+      Along with my interest in web development, here are some of my other hobbies:
+      - playing guitar;
+      - karaoke;
+      - tourizm;
+      - team intellectual games.
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
